@@ -1,0 +1,13 @@
+/* Extern Style (Recomendado)*/
+body {
+    background-color: cadetblue;
+}
+
+h1 {
+    color: brown;
+    font-size: 88px;
+}
+
+h2 {
+    color: chartreuse;
+}

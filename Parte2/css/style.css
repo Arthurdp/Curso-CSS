@@ -1,0 +1,51 @@
+/* Seletor universal, todas as tags ficam assim */
+*{
+    padding: 20px;
+}
+
+body {
+    background-color: cornsilk;
+}
+
+p {
+    color: rgb(31, 31, 31);
+}
+
+.center {
+    text-align: center;
+}
+
+.fonte-30 {
+    font-size: 30px;
+}
+
+/* Ids e classes não podem começar com numeros */
+#teste1 {
+    background-color: aqua;
+}
+
+/* Seletores com propriedades iguais podem ser definidos juntos com a vírgula */
+h1, p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.exemplo-back {
+    height: 300px;
+    background-color: blue;
+    background-image: url("../img/pexels-cottonbro-studio-9667518.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/* Atalho para os parâmetros de background numa linha só*/
+.exemplo-back-2 {
+    height: 300px;
+    background: gray url("../img/pexels-cottonbro-studio-9667518.jpg") center no-repeat;
+    background-size: cover;
+
+}
+
+h1 {
+    padding: 0%;
+    border-bottom: solid black 3px;
+}
