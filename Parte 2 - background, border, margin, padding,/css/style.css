@@ -37,15 +37,45 @@ h1, p {
     background-repeat: no-repeat;
     background-position: center;
 }
-/* Atalho para os parâmetros de background numa linha só*/
+/* propriedade geral para os parâmetros de background numa linha só*/
 .exemplo-back-2 {
-    height: 300px;
+    color: white;
+    height: 100px;
     background: gray url("../img/pexels-cottonbro-studio-9667518.jpg") center no-repeat;
     background-size: cover;
+    margin-bottom: 100px;
 
 }
 
 h1 {
     padding: 0%;
-    border-bottom: solid black 3px;
+    border-radius: 20px;
+    background:rgb(32, 76, 170);
+    /* margin-bottom: 50px; */
+    /* Propriedade margin geral, começa do topo e vai sentido horário */
+    margin: 20px 0 60px 5%;
+    width: fit-content;
+    /* Mesma coisa do margin, com um só valor, ele faz pra todos os lados */
+    padding: 20px;
+}
+
+.botao {
+    margin-left: 33%;
+    background: green;
+    color: white;
+    padding:20px 35px 25px 35px;
+    border-bottom: solid rgb(66, 61, 61) 5px;
+    border-right: solid rgb(66, 61, 61) 5px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.botao:hover{
+    background: rgb(25, 25, 138);
+}
+
+.teste {
+    max-width: 800px;
+    height: 150x;
+    background: aquamarine;
 }

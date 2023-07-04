@@ -1,0 +1,133 @@
+/* No google fonts, pode ir somando as fontes que quer importar q ele junta tudo
+pra não ficar importando várias fontes. */
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&display=swap');
+
+body {
+    background-color: cornsilk;
+}
+
+p {
+    color: rgb(31, 31, 31);
+    text-align: justify;
+    /* Inverte a direção e espelha o texto. Mais usado no japones */
+    /* direction: rtl;
+    unicode-bidi: bidi-override; */
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-indent: 50px;
+    letter-spacing: 5px;
+    line-height: 2.0;
+    word-spacing: 30px;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+   
+    /* Fonte importada */
+    font-family: 'Fasthand', cursive;
+    font-size: 20px;
+    font-style: italic;
+    /* Grossura da fonte */
+    font-weight: 900;
+}
+
+.center {
+    text-align: center;
+}
+
+.fonte-30 {
+    font-size: 30px;
+}
+
+h1 {
+    padding: 0%;
+    border-radius: 20px;
+    background:rgb(32, 76, 170);
+    margin: 20px 0 60px 5%;
+    width: fit-content;
+    padding: 20px;
+    letter-spacing: -2px;
+}
+
+.botao {
+    margin-left: 33%;
+    background: green;
+    color: white;
+    padding:20px 35px 25px 35px;
+    border-bottom: solid rgb(66, 61, 61) 5px;
+    border-right: solid rgb(66, 61, 61) 5px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.botao:hover{
+    background: rgb(25, 25, 138);
+}
+
+.teste {
+    max-width: 800px;
+    height: 150x;
+    background: aquamarine;
+}
+
+a.botao1 {
+    background: darkgreen;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border: solid black 4px;
+    border-radius: 10px;
+}
+
+a.botao1:hover {
+    background: lightgreen;
+    padding: 15px;
+    border: solid green 4px;
+    border-radius: 10px;
+    color: black;
+}
+
+a.botao2 {
+    color: blue;
+    padding: 10px;
+    text-decoration: none;
+    border: solid black 1px;
+    border-radius: 10px;
+}
+
+a.botao2:hover {
+    background: lightblue;
+    padding: 7px;
+    border: double blue 4px;
+    border-radius: 10px;
+    color: black;
+}
+
+a.botao3 {
+    color: red;
+    padding: 10px;
+    text-decoration: none;
+}
+
+a.botao3:hover {
+    border-bottom: groove blue 4px;
+    color: black;
+}
+
+a.botao4 {
+    color: rgb(133, 17, 187);
+    padding: 10px;
+    text-decoration: none;
+}
+
+a.botao4:hover {
+    font-size: 20px;
+    color: black;
+}
+
+a.botao4 {
+    color: rgb(133, 17, 187);
+    padding: 10px;
+    text-decoration: none;
+}
+
+a.botao5:hover {
+    cursor: crosshair;
+}
