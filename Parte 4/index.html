@@ -8,6 +8,131 @@
     
 </head>
 <body>
+    <!-- Displays
+    display: block -> começa no início da linha e ocupa toda a linha da página -->
+    <h2>display block</h2>
+    <!-- Divs, titulos(h1 ~ h6) e parágrafos(p) vem com display block por padrão -->
+    <div class="borda"></div>
+    <h1 class="borda">Meu primeiro CSS</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa, sed quidem sapiente excepturi est corporis facere. Commodi cupiditate, minus deserunt eligendi ad, excepturi maxime voluptatem veniam, architecto debitis expedita quisquam?</p>
+
+    <!-- Form, header, footer e section também tem display block por padrão -->
+    <form class="borda" action="">
+
+    </form>
+    <header class="borda"></header> 
+    <footer class="borda"></footer>
+    <section class="borda"></section> 
+
+    <!-- display: inline -> Não inicia numa NOVA linha, continua na mesma linha,
+    esquerda pra direita, também n ocupa todo o espaço da linha, só o que precisa
+    para o elemento. -->
+    <!-- links (a), spans e imagens tem inline por padrão  -->
+    <h2>display inline</h2>
+
+    <a class="borda">Meu link aqui</a>
+    <a class="borda">outro link aqui</a>
+    <span class="borda">Teste span</span>
+    <img class="imagem" src="./img/pexels-cottonbro-studio-9667518.jpg" alt="">
+    <br>
+    <br>
+    <h2>Teste display inline</h2> 
+    <h1 class="borda teste-inline">Meu primeiro CSS</h1>
+    <p class="borda teste-inline">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni quidem cumque eius quia, provident excepturi eaque deserunt iure impedit et animi, earum ut quam illum non perspiciatis qui sed! Voluptas?</p>
+    <p class="borda teste-inline">awdiawdjbnawpdçjawbdçkjaw açwjkld awçdjl açwljdbnçalkjdbw çadjb </p>    
+
+    <h2>display none</h2> 
+    <!-- Basicamente faz sumir o elemento, é usado para fazer alterações em tempo de execução
+    mudando o display para algo sumir ou aparecer -->
+    <h1 class="borda teste-inline">Meu primeiro CSS</h1>
+    <h3>hover para colocar display none abaixo</h3>
+    <p id="p1" class="borda teste-inline">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni quidem cumque eius quia, provident excepturi eaque deserunt iure impedit et animi, earum ut quam illum non perspiciatis qui sed! Voluptas?</p>
+    <p class="borda teste-inline">awdiawdjbnawpdçjawbdçkjaw açwjkld awçdjl açwljdbnçalkjdbw çadjb </p>    
+
+    <h2>Entendendo o conceito</h2>
+
+    <h1 class="borda">Meu Primeiro css</h1>
+    <ul class="borda">
+        <!-- O display inline entende as coisas como "palavras" ou textos então ele tenta colocar um
+        espaço em todo elemento q vier depois, mas se colocar os elementos na mesma 
+        linha ele reconheçe como uma palavra só. -->
+        <h2>inlines com quebra de linha no código</h2>
+        <li class="azul">primeiro item</li>
+        <li class="vermelho">segundo item</li>
+        <li class="verde">terceiro item</li>
+
+        <h2>inlines sem quebra de linha no código</h2>
+        <li class="azul">primeiro item</li><li class="vermelho">segundo item</li><li class="verde">terceiro item</li>
+    
+        <h2>li com display inline block</h2>
+        <li class="azul inline-block">primeiro item</li>
+        <li class="vermelho inline-block">segundo item</li>
+        <li class="verde inline-block">terceiro item</li>
+    </ul>
+
+    <h2>Teste display inline-block com divs</h2> 
+    <h1 class="borda ">Meu primeiro CSS</h1>
+    
+    <h2>começa como block e alterei os tamanhos, mas n muda nada</h2>
+    <div class="azul">
+        conteúdo
+    </div>
+    <div class="vermelho">
+        conteúdo
+    </div>   
+    <div class="verde">
+        conteúdo
+    </div>      
+
+    <h2>alterei para inline-block</h2>
+    <div class="azul inline-block divs2">
+        conteúdo
+    </div>
+    <div class="vermelho inline-block divs2">
+        conteúdo
+    </div>   
+    <div class="verde inline-block divs2">
+        conteúdo
+    </div>    
+    
+    <h2>display none e visibility hidden</h2>
+    <h2>display none, elemento é excluído, é retirado da página</h2>
+    <div class="azul inline-block divs2">
+        conteúdo
+    </div>
+    <div class="vermelho inline-block divs2 none">
+        conteúdo
+    </div>   
+    <div class="verde inline-block divs2">
+        conteúdo
+    </div>    
+
+    <h2>visibility hidden, elemento é escondido, mas ainda está na página</h2>
+    <div class="azul inline-block divs2 ">
+        conteúdo
+    </div>
+    <div class="vermelho inline-block divs2 visibility">
+        conteúdo
+    </div>   
+    <div class="verde inline-block divs2">
+        conteúdo
+    </div>  
+
+    <h1 class="borda">Meu primeiro CSS</h1>
+
+    <h2>teste de inline e inline block em um link (a)</h2>
+    <h2>como é um inline, nada acontece se mudar o tamanho</h2>
+    <a href="#" class="botao"> botão teste</a>
+
+    <h2>alterado para inline block</h2>
+    <a href="#" class="botao inline-block"> botão teste</a>
+
+    <h2>como é "inline" também, da pra colocar propriedades de texto, como 
+        text-align center</h2>
+    <a href="#" class="botao inline-block text-align"> botão teste</a>
+
+    <h2>deixando só block, não alinha</h2>
+    <a href="#" class="botao inline-block block"> botão teste</a>
     
 </body>
 </html>

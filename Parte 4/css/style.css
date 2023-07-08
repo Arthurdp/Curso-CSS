@@ -1,0 +1,80 @@
+.borda {
+    border: 1px solid red;
+}
+
+.imagem {
+    height: 100px;
+
+}
+
+.teste-inline {
+    display: inline;
+}
+
+#p1 {
+    display: block;
+}
+
+#p1:hover {
+    display: none;
+}
+
+li{
+    display: inline;
+    /* Não acontece nada, pois o display inline não aceita alterações de tamanho como
+    width e height ou posição como margin, por que pra ele, o tamanho do elemento é 
+    definido pelo tamanho do conteúdo */
+    width: 100px;
+    height: 100px; 
+}
+
+    /* Se eu quiser q o inline tenha o comportamento de aceitar tamanhos diferentes,
+    como o "block", precisa do display q combina os dois, que é o "inline-block" */
+li.inline-block {
+    display: inline-block;
+    width: 33%;
+    height: 100px;
+}
+
+.azul {
+    background-color: blue;
+}
+
+.vermelho {
+    background-color: red;
+}
+
+.verde {
+    background-color: green;
+}
+
+.divs2 {
+    width: 33%;
+    height: 100px;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.none {
+    display: none;
+}
+
+.visibility {
+    visibility: hidden;
+}
+
+a.botao {
+    border: solid red;
+    width: 50%;
+    height: 100px;
+}
+
+.text-align {
+    text-align: center;
+}
+
+.block {
+    display: block;
+}
