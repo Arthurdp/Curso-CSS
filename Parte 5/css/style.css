@@ -1,0 +1,203 @@
+.ex1 {
+    width: 800px;
+}
+
+.ex2 {
+    max-width: 800px;
+}
+
+.container{
+    /* Quase todos os elementos html tem position static por padrão
+    Aqui estamos mudando para relative */
+    position: relative;
+    background: blue;
+    width: 100%;
+    height: 400px;
+    display: inline-block;
+}
+
+.div1 {
+    /* Relativo, quer dizer relativo a posição inicial do elemento */
+    position: relative;
+    left: 60px;
+    /* pra trás ou pra frente de algo */
+    z-index: 2;
+    width: 30%;
+    height: 100px;
+    background-color: yellow;
+    display: inline-block;
+}
+
+.div2 {
+    /* Faz o elemento grudar em um canto da tela quando ele passar por ela, como o topo 0
+    mas o elemento só consegue ser arrastado pelo espaço da div pai. */
+    position: sticky;
+    top: 0px;
+    z-index: 3;
+    width: 30%;
+    height: 100px;
+    background-color: rgb(255, 0, 179);
+    display: inline-block;
+}
+
+.div3 {
+    width: 30%;
+    height: 100px;
+    background-color: red;
+    display: inline-block;
+    /* É a posição referente a "posição que ele está dentro do elemento pai". colocando um left, 
+    o elemento se mexe apenas dentro do pai, mas para isso, a div pai não pode ser "estatic" 
+    se não ele vai procurar uma div acima do pai que não seja static */
+    position: absolute;
+    top: 190px;
+    right: 50%;
+    /* Essa propriedade faz um calculo linear para colocar o elemento exatamente em um lugar da tela,
+    ignorando sua posição inicial do elemento, nesse caso deixa totalmente no meio do eixo X */
+    transform: translateX(50%);
+}
+
+.whats {
+    background-color: green;
+    color: white;
+    width: 50px;
+    height: 50px;
+    /* Fixa em algum local da tela, independente da rolagem. */
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 999;
+}
+
+.container2 {
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 400px;
+    display: inline-block;
+    border: 1px dashed red;
+}
+
+.centro {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: 50%;
+    font-size: 30px;
+
+}
+
+#img1{
+    position: absolute;
+    width: 100%;
+    opacity: 0.6;
+    border: solid 1px blue;
+    height: 100%;
+}
+
+.exemplo {
+    background-color: rgb(147, 147, 194);
+    color: black;
+    height: 80px;
+    /* Por padrão é visible */
+    overflow: visible;
+}
+
+.exemplo2 {
+    background-color: rgb(147, 147, 194);
+    color: black;
+    height: 80px;
+    /* esconde o que não couber */
+    overflow: hidden;
+}
+
+.exemplo3 {
+    background-color: rgb(147, 147, 194);
+    color: black;
+    height: 80px;
+    /* Cria um scroll pra rolar a pagina */
+    overflow: scroll;
+}
+
+.exemplo4 {
+    background-color: rgb(147, 147, 194);
+    color: black;
+    height: 80px;
+    /* automaticamente decide como fazer o overflow, se precisar de espaço coloca scroll. */
+    overflow: auto;
+}
+
+.container3 {
+    border: 1px solid black;
+    overflow: auto;
+    padding-right: 20px;
+}
+
+.container3 img{
+    /* Basicamente, ele faz um elemento existir baseado em uma posição
+    como esquerda ou direita. Faz se desprender do elemento pai
+    parece com quando mexe em uma imagen no word que o texto se ajusta 
+    como o elemento se "desprende" da div pai, uma borda do pai não acompanha mais,
+    fica como um overflow, se mudar o overflow do pai ela se ajusta */
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+ul {
+    background-color: black;
+    padding: 0;
+}
+
+li {
+    
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+    padding: 30px;
+    display: inline-block;
+}
+
+li a:hover {
+    background-color: aqua;
+    color: black;
+}
+
+.login {
+    float: right;
+}
+
+.login:hover{
+    background-color: blueviolet
+}
+
+.img1:hover {
+    opacity: 0.7;    
+}
+
+.img2 {
+    opacity: 0.6;
+}
+
+.img3 {
+    opacity: 0.3;
+}
+
+.botao {
+    padding: 15px;
+    background-color: aqua;
+    color: black;
+    text-decoration: none;
+}
+
+.botao:hover {
+    color: white;
+    opacity: 0.5;
+}
+
+.transparente {
+    opacity: 0.5;
+    background-color: blueviolet;
+    padding: 50px;
+}

@@ -1,0 +1,57 @@
+ul {
+    background-color: black;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: auto;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn{
+    background-color: darkgoldenrod;
+}
+
+li.dropdown {
+    display: inline-block;
+    float: right;
+}
+
+.dropdown-content {
+    text-align: end;
+    position: absolute;
+    background-color: white;
+    width: 150px;
+    display: none;
+    border: solid black 1px;
+    right: 0;
+    margin-right: 8px;
+    border-top: 0px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a {
+    color: #000000;
+    display: block;
+}
+
+/* 
+Ordem de prioridade do css:
+    qualquer !important
+    #id
+    tag.class
+    .class
+    tag 
+*/

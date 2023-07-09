@@ -11,11 +11,11 @@ Neste Curso de CSS Completo você encontra um compilado de vídeos com praticame
 Aula 01 - O que é CSS e CSS Inline:   
 Aula 02 - CSS Interno (incorporado na página):   
 Aula 03 - CSS Externo:   
-Aula 04 - Seletores e Classes:   
-Aula 05 - Propriedade Color:   
 
 ### Parte 2
 
+Aula 04 - Seletores e Classes:   
+Aula 05 - Propriedade Color:   
 Aula 06 - Propriedade Background:   
 Aula 07 - Propriedade Border:   
 Aula 08 - Propriedade Margin:   
@@ -35,19 +35,15 @@ Aula 14 - Propriedade Display:
 ### Parte 5
 
 Aula 15 - Propriedade Max-Width:   
-
 Aula 16 - Propriedade Position:   
-
 Aula 17 - Propriedade Overflow:   
-
 Aula 18 - Propriedade Float:   
-
 Aula 19 - Propriedade Opacity:   
  
+### Parte 6
+
 Aula 20 - Efeito Dropdown:   
-
 Aula 21 - Especificidade CSS:   
-
 Aula 22 - Regra Important:   
 
 Aula 23 - Efeito Gradiente:   
