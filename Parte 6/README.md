@@ -45,12 +45,11 @@ Aula 19 - Propriedade Opacity:
 Aula 20 - Efeito Dropdown:   
 Aula 21 - Especificidade CSS:   
 Aula 22 - Regra Important:   
-
 Aula 23 - Efeito Gradiente:   
-
 Aula 24 - Propriedades Text Shadow e Box Shadow:   
- 
 Aula 25 - Efeitos de Texto:   
+
+### Parte 7
 
 Aula 26 - Media Queries:   
  
