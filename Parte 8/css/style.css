@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin : 0;
+}
+
+.flex-pai-exemplo {
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.flex-pai-exemplo div {
+    background-color: white;
+    border : 1px solid black;
+    padding: 30px;
+    margin: 20px;
+    text-align: center;
+}
+
+.flex-pai {
+    height: 600px;
+    background-color: blue;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center; /* Horizontal */
+    /* Vem stretch como padrão, que estica os itens */
+    align-items: center; /* Vertical */ 
+    align-content: center; /* Pega todo o conteúdo e alinha */
+
+}
+
+.flex-pai div {
+    flex-grow: 1; /* Deixa tudo uniforme dentro da div flex q esse elemento tá */
+    background-color: white;
+    border : 1px solid black;
+    padding: 30px;
+    text-align: center;
+}
+
+.header {
+    background-color: blue;
+    padding: 80px;
+    text-align: center;
+    color: white;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    padding: 25px;
+    transition: all 0.5s;
+}
+
+.nav a:hover {
+    background-color: aqua;
+    color: #000;
+}
+
+@media screen and (max-width: 600px) {
+    .nav {
+        flex-direction: column;
+    }
+}
+
+.corpo {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.card {
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 300px;
+    height: auto;
+    margin: 15px;
+    text-align: center;
+    flex-grow: 1;
+}
+
+img {
+    width: 100%;
+}
