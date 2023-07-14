@@ -53,8 +53,12 @@ Aula 25 - Efeitos de Texto:
 
 Aula 26 - Media Queries:   
  
+### Parte 8
+
 Aula 27 - Flexbox:   
   
+### Projeto
+
 Aula 28  - Criando Site do Zero Com CSS e HTML:
 
 ### https://www.youtube.com/watch?v=w1J6gY40yMo
